@@ -27,6 +27,7 @@
 ### Admin
 - - -
 > Seperately authenticated application. Responsible for monitoring entry/exit, managing payments, and controlling memberships.
+
 ### Member Sign up
 - - -
 > Fairly straight forward, but we will capture payment information, intended, plan, and publically viewable information at this point. **This will trigger a notification on the admin side, requiring approval and RFID assignment**
