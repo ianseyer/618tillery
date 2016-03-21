@@ -36,6 +36,7 @@
 - - -
 > Individual member view. Displays "checked in today?", skills, open to freelance, chat handle, etc.
 > **Potential chat integration point - click "message me"**
+
 ### Rolodex
 - - -
 > Catalogue of all members, essentially a list of individual profile views.
