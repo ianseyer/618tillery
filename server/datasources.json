@@ -1,0 +1,24 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "mongo": {
+    "host": "ds031628.mlab.com",
+    "port": 31628,
+    "database": "tillery",
+    "password": "tillery",
+    "name": "mongo",
+    "user": "tillery",
+    "connector": "mongodb"
+  },
+  "access-log": {
+    "host": "",
+    "port": 0,
+    "database": "",
+    "password": "",
+    "name": "access-log",
+    "user": "",
+    "connector": "postgresql"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "rfidLog",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "timestamp": {
+      "type": "date",
+      "required": true
+    },
+    "success": {
+      "type": "boolean",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {
+    "member": {
+      "type": "hasOne",
+      "model": "member",
+      "foreignKey": ""
+    },
+    "door": {
+      "type": "hasOne",
+      "model": "door",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

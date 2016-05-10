@@ -1,0 +1,26 @@
+{
+  "name": "member",
+  "base": "User",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "stripeId": {
+      "type": "string"
+    },
+    "rfid": {
+      "type": "string"
+    },
+    "plan": {
+      "type": "string"
+    },
+    "profile": {
+      "type": "object"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
